@@ -31,6 +31,8 @@ export default function Home() {
             <section className="flex flex-wrap gap-2">
               <a href="https://twitter.com/Cememer_Sweet" className="bg-sky-950 text-white p-2 rounded-md" target="_blank" >X / Twitter</a>
               <a href="https://github.com/Cememer" className="bg-black text-white p-2 rounded-md" target="_blank" >GitHub</a>
+              <a href="https://cememer.hateblo.jp/" className="bg-green-200 text-black p-2 rounded-md" target="_blank" >Blog</a>
+              <a href="https://www.youtube.com/@Cememer" className="bg-red-200 text-black p-2 rounded-md" target="_blank" >YouTube</a>
               <a href="https://marshmallow-qa.com/rdbmraiiv522nv6" className="bg-pink-800 text-white p-2 rounded-md" target="_blank" >Marshmallow (Message)</a>
             </section>
           </div>
