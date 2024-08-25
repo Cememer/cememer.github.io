@@ -2,8 +2,13 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Cememer's Page",
-  description: "Cememer's Personal Page",
+  metadataBase: new URL('https://cememer.github.io'),
+  title: "Cememer's Profile",
+  description: "Cememerのプロフィールサイト。",
+  twitter: {
+    card: "summary",
+    creator: "@Cememer_Sweet",
+  },
 };
 
 export default function Home() {
