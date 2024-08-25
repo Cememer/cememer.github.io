@@ -15,8 +15,23 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="ja">
+      <body className={inter.className}>
+        <nav className="flex items-center p-4 px-7 bg-[#186578] text-white">
+          <a href="/" className="grow text-white">
+            Home
+          </a>
+          <div className="grow flex flex-row justify-end gap-3">
+            <a href="/test" className="text-white">
+              Test
+            </a>
+            <a href="/page" className="text-white">
+              Page
+            </a>
+          </div>
+        </nav>
+        {children}
+      </body>
     </html>
   );
 }
