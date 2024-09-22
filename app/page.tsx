@@ -18,7 +18,7 @@ export default function Home() {
         <div className="flex flex-row flex-wrap-reverse sm:justify-center">
           <div className="grow flex flex-col items-start sm:items-center lg:items-start justify-center gap-4">
             <section>
-              <h1 className="font-bold text-5xl mb-4">Cememer</h1>
+              <h1 className="font-bold text-5xl mb-4 text-white">Cememer</h1>
               <p className="text-white text-xl font-light">
                 とある学生のプライベート領域。
                 <br />
