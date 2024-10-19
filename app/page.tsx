@@ -22,10 +22,7 @@ export default function Home() {
               <p className="text-white text-xl font-light">
                 とある学生のプライベート領域。
                 <br />
-                <br />
-                Geek Software | Train🚊 | 東方🎵 | ずんだもん🍃 | PC Games🎮
-                <br />
-                and more...🤔
+                Geek Software💾 | Train🚊| and more...🤔
               </p>
             </section>
             <section className="flex flex-wrap gap-2">
